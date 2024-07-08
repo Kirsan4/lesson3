@@ -3,5 +3,5 @@
 ## Creating branches
 git branch_name - создает новую ветку
 ## Merging branches
-
+git merge branch_name - слияние веток
 ## Conflicts
