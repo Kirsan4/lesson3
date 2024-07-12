@@ -31,3 +31,21 @@
  ## Git branch -m <branch> - Изменение имени текущей ветки на ＜ветка＞.
  ## Git branch -a - Вывод списка всех удаленных веток.
  
+## Работа с удаленным репозиторием
+
+# Добавление удаленного репозитория
+Чтобы добавить новый удаленный репозиторий, выполните команду git remote add в терминале в каталоге, в котором хранится репозиторий.
+
+Команда git remote add принимает два аргумента:
+
+имя удаленного репозитория, например, origin;
+URL-адрес удаленного репозитория, например, https://github.com/OWNER/REPOSITORY.git.
+Например:
+
+$ git remote add origin https://github.com/OWNER/REPOSITORY.git
+# Set a new remote
+
+$ git remote -v
+# Verify new remote
+> origin  https://github.com/OWNER/REPOSITORY.git (fetch)
+> origin  https://github.com/OWNER/REPOSITORY.git (push)
